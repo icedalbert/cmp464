@@ -12,7 +12,8 @@
             <p class="collections-title"><strong>{{ item.status }}</strong></p>
             <!-- <p class="collections-content">Web Project</p> -->
           </div>
-          <div class="col s3"><span class="task-cat deep-orange accent-2">{{ item.count }}</span></div>
+          <div class="col s3"><span
+              class="task-cat deep-orange accent-2">{{ Number(item.count).toLocaleString() }}</span></div>
           <div class="col s4">
             <div class="progress">
               <div class="determinate" style="width: 70%"></div>

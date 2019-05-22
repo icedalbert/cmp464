@@ -11,7 +11,7 @@
             <div class="card animate fadeLeft">
               <div class="card-content cyan white-text">
                 <p class="card-stats-title"><i class="material-icons">person_outline</i> {{ item.borough }}</p>
-                <h4 class="card-stats-number white-text">{{ item.count }}</h4>
+                <h4 class="card-stats-number white-text">{{ Number(item.count).toLocaleString() }}</h4>
                 <!--
                 <p class="card-stats-compare">
                   <i class="material-icons">keyboard_arrow_up</i> 15%
